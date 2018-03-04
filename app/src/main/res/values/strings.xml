@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Call Prompt</string>
+    <string name="instruction_text">Press the floating button to add contacts to prompt list.</string>
+</resources>
