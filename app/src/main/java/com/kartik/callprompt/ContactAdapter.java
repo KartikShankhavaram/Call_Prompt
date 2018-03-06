@@ -21,13 +21,12 @@ import java.util.ArrayList;
 
 public class ContactAdapter extends RecyclerView.Adapter<ContactViewholder> {
 
-    private ArrayList<ContactInfo> contactList;
+    private ArrayList<ContactInfo> contactList = PromptContacts.promptContactList;
     private Context mContext;
     private TinyDB tinyDB;
     final String TAG = this.getClass().getSimpleName();
 
-    public ContactAdapter(ArrayList<ContactInfo> list, Context mContext, TinyDB tinyDB) {
-        contactList = list;
+    public ContactAdapter(Context mContext, TinyDB tinyDB) {
         this.mContext = mContext;
         this.tinyDB = tinyDB;
     }

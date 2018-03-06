@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Call Prompt</string>
     <string name="instruction_text">Press the floating button to add contacts to prompt list.</string>
+    <string name="permission_denied_toast">This app cannot function without Telephone permissions. Go to settings and give permissions to access Telephone in order to use this app.</string>
+    <string name="call_permission_denied_toast">This permission is required to call people after the prompt, please allow this permission for the app to work.</string>
+    <string name="call_dialog_text">Are you sure you want to call this number?</string>
+    <string name="call_dialog_negative_button">Cancel</string>
+    <string name="call_dialog_positive_button">Call</string>
+    <string name="manual_entry">Manual entry</string>
 </resources>
